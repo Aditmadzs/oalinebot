@@ -1,3 +1,7 @@
-line-bot-sdk
 flask
-requests
+line-bot-sdk
+kbbi
+urbandictionary_top
+argparse
+googletrans
+wikipedia
