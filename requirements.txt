@@ -1,7 +1,3 @@
-flask
 line-bot-sdk
-kbbi
-urbandictionary_top
-argparse
-googletrans
-wikipedia
+flask
+requests
