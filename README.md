@@ -13,7 +13,7 @@ handler = WebhookHandler('ISI CHHANEL SCREET')
 4. EDIT TOKEN + SECRET DULU
 5. Buka folder git kalian
 ```shell＝
-cd nama folder
+cd oalinebot
 ```
 6. Login Ke Heroku
 ```shell＝
@@ -25,7 +25,7 @@ heroku apps:create nama
 ```
 8. Git Remote Ke Heroku
 ```shell＝
-heroku git:remote nama aplikasi
+heroku git:remote nama 
 ```
 9. Init ke git
 ```shell＝
