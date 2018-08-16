@@ -8,47 +8,50 @@ handler = WebhookHandler('ISI CHHANEL SCREET')
 ```
 
 1. sudo apt-get install heroku
-2. curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
-3. git clone https://github.com/Aditmadzs/oalinebot
-4. EDIT TOKEN + SECRET DULU
-5. Buka folder git kalian
+2. sudo pip install line-bot-sdk
+3. sudo pip install flask
+4. curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+5. git clone https://github.com/Aditmadzs/oalinebot
+6. EDIT TOKEN + SECRET DULU
+7. Buka folder git kalian
 ```shell＝
 cd oalinebot
 ```
-6. Login Ke Heroku
+8. Login Ke Heroku
 ```shell＝
 heroku login
 ```
-7. Buat aplikasi di heroku
+9. Buat aplikasi di heroku
 ```shell＝
 heroku apps:create nama
 ```
-8. Git Remote Ke Heroku
+10. Git Remote Ke Heroku
 ```shell＝
 heroku git:remote nama 
 ```
-9. Init ke git
+11. Init ke git
 ```shell＝
 git init
 ```
-10. Tambahkan git
+12. Tambahkan git
 ```shell
 git add .
 ```
-11. Lalu commit
+13. Lalu commit
 ```shell
 git commit -m "Aditmadzs"
 ```
-12. Push ke heroku
+14. Push ke heroku
 ```shell
 git push heroku master
 ```
-13. Masukan Webhook URL
+15. Masukan Webhook URL
 ```shell
 nama-aplikasi-di-heroku.herokuapp.com/callback
-14. Tambahkan /callback dibelakang link webhook URL
 ```
-15. Jalankan app.py
+16. Tambahkan /callback dibelakang link webhook URL
+
+17. Jalankan app.py
 ```shell
 python3 app.py
 ```
