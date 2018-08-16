@@ -84,7 +84,7 @@ def handle_message(event):
                     ),
                     MessageTemplateAction(
                         label='CULUM 2',
-                        text='/aditmadzs
+                        text='/aditmadzs'
                     ),
                     MessageTemplateAction(
                         label='CULUM 3',
