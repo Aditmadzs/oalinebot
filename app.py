@@ -130,17 +130,17 @@ def handle_message(event):
         bubble = BubbleContainer(
             direction='ltr',
             hero=ImageComponent(
-                url='https://example.com/cafe.jpg',
+                url='https://lh5.googleusercontent.com/VoOmR6tVRwKEow0HySsJ_UdrQrqrpwUwSzQnGa0yBeqSex-4Osar2w-JohT6yPu4Vl4qchND78aU2c5a5Bhl=w1366-h641-rw',
                 size='full',
                 aspect_ratio='20:13',
                 aspect_mode='cover',
-                action=URIAction(uri='http://example.com', label='label')
+                action=URIAction(uri='http://line.me/ti/p/~adit_cmct', label='label')
             ),
             body=BoxComponent(
                 layout='vertical',
                 contents=[
                     # title
-                    TextComponent(text='Brown Cafe', weight='bold', size='xl'),
+                    TextComponent(text='Aditmadzs', weight='bold', size='xl'),
                     # review
                     BoxComponent(
                         layout='baseline',
@@ -172,7 +172,7 @@ def handle_message(event):
                                         flex=1
                                     ),
                                     TextComponent(
-                                        text='Shinjuku, Tokyo',
+                                        text='Tangerang, Indonesia',
                                         wrap=True,
                                         color='#666666',
                                         size='sm',
