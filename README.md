@@ -1,3 +1,4 @@
+## For install Tutorial [HERE](https://www.youtube.com/watch?v=tffqvyI_K3A)
 ## Deploy to Heroku
 #Ganti token dan chanel screet mu! di file app.py
 ```python
